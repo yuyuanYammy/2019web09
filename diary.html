@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: #FFFFFF;
+			font-size: 16px;
+			text-align: center;
+		}
+		*{
+			padding: 0;
+		    margin: 0;	
+		}
+		}
+		h1,h2,h3,h4,h5{
+			font-family: 幼圆;
+			text-align: center;
+		}
+		h1,h3{
+			font-size: 60px;
+			text-shadow: 5px 5px 5px #000000;
+			color: #B1E1D9!important;
+		}
+	    h2{font-size: 50px;}
+	    h3{font-size: 40px;}
+	    h4{font-size: 30px;}
+		h5{
+			font-size: 20px;
+		    line-height: 30px;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;	
+		}
+		.headul li{
+			float: left;
+			font-family: 幼圆;
+			width:20%;
+			height: 100%;
+		    font-size: 30px;
+		}
+		a:link,a:visited{
+			display: block;
+			width: 100%;
+			font-weight: bold;
+			color: aliceblue;
+			background-color: #5FAA8F;
+			text-align: center;
+			padding: 4px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		a:hover,a:active{
+			width: auto; 
+			background-color: #256E72
+		}
+		
+		ul01{
+	        position: relative;
+	        margin: 0 0 0 50px;
+        }
+		.li00{
+			padding-left: 30%;
+		}
+		.text li{
+			list-style-type: none;
+			float: left;
+		}
+		input{
+			position: absolute;
+			display: none;
+		}
+		label{
+			display: block;
+			width: 150px;
+			height: 54px;
+			background-color: #529E91;
+			font-size: 20px;
+			line-height: 54px;
+			text-align: center;
+			border-radius: 5px 5px 0 0;
+			margin-top: 50px;
+		}
+		div{
+			position: absolute;
+			top: 102px;
+			left: 0;
+			width: 700px;
+			height: 355px;
+			margin: 0 auto;
+			padding: 25px;
+			background-color: #1E6B4D;
+			text-align: left;
+			transform: translateX(-1072px);
+		}
+		p{
+			margin: 15px 0;
+			font-size: 24px;
+		}
+		label:hover{
+			background-color: #38846F;
+			cursor: pointer;
+		}
+		input:checked + label{
+			position: relative;
+			top: -4px;
+			padding-top: 3px;
+			background-color: #1E6B4D;
+			text-decoration: underline;
+		}
+		input:checked~div{
+			z-index: 2;
+		}
+	</style>
+<meta charset="utf-8">
+<title>日志</title>
+</head>
+
+<body>
+<body background="images/head-1.jpg">
+<h1>欢迎光临我的个人网站！</h1>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;————日志</h3>
+<ul class="headul">
+	<a href="index1.html"><h4>首页</h4></a> 
+    <li><a href="about.html">关于我</a></li>
+	<li><a href="diary.html">日记本</a></li>
+	<li><a href="works.html">看作品</a></li>
+	<li><a href="photo.html">瞅照片</a></li>
+	<li><a href="contact.html">咋联系</a></li>
+</ul>
+<ul01 class="text">
+		<li class="li00">
+			<input type="radio" name="tab" id="tab1" checked>
+			<label for="tab1">10月10日</label><br>
+			<div>
+				<p>&nbsp;&nbsp;今天是周四，我们进行了网编的上机课，今天我们学习了个人网页的编写，并且布置了作业，让我们熟悉超链接和书签代码的使用。</p>
+				<p>&nbsp;&nbsp;我觉得十分有趣，只是DW这个软件有些难以上手，我会努力学会它的！</p>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name="tab" id="tab2">
+			<label for="tab2">10月14日</label>
+			<div>
+				<p>&nbsp;&nbsp;最近的游戏日常——我爱这个游戏，俺喜欢明日方舟！！！↓</p>
+				<img src="images/diary.jpg" height="300"width="504"alt="头像"align="right">
+			</div>
+		</li>
+		<li>
+			<input type="radio" name="tab" id="tab3">
+		  <label for="tab3">10月17日</label>
+			<div>
+				<p>&nbsp;&nbsp;又是一个周四，今天的上机课我们要运用css做题啦，有点小难，令人头秃——</p>
+				<p>&nbsp;&nbsp;嘿嘿，不过我感觉我会了那么一点点！</p>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name="tab" id="tab4">
+			<label for="tab4">10月19日</label>
+			<div>
+				<p>&nbsp;&nbsp;又是一个风和日丽的周末，今天元气音乐节在我们学习举行，我去现场感受到了音乐的魅力，回来以后感觉更加有动力做网编作业了，哈哈！</p>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name="tab" id="tab5">
+			<label for="tab5">10月31日</label>
+			<div>
+				<p>&nbsp;&nbsp;今天有试着自己学一点新的东西！试试看能不能融会贯通吧！</p>
+				<p>&nbsp;&nbsp;加油呀！</p>
+			</div>
+		</li>
+	</ul01>
+</body>
+</html>
